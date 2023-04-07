@@ -1,8 +1,5 @@
-# Empty Starter Kit for Rust
+# GRPC-Web on Compute@Edge
 
-An empty project template for Rust Compute@Edge programs that returns an empty `200 OK` response for
-any request it receives.
+This is an example C@E application that serves a [gRPC Web](https://github.com/grpc/grpc-web) binary endpoint.
 
-## Security issues
-
-Please see [SECURITY.md](SECURITY.md) for guidance on reporting security-related issues.
+There is an example client in the `client` directory, which is used to validate the implementation. The C@E app serves this client on the `/` path.
