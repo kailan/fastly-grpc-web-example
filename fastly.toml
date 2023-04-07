@@ -1,0 +1,9 @@
+# This file describes a Fastly Compute@Edge package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+authors = [""]
+description = ""
+language = "rust"
+manifest_version = 2
+name = "fastly-grpc-web-example"
+service_id = "Q8V0ixu3USHBy298srXlt4"
